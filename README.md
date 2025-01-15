@@ -16,8 +16,8 @@ The **Expense Report App** is a comprehensive Power Platform application that in
 - **Email Notifications**: Directly mail the approver when the status of an expense is either **"Submitted"** or **"Declined"**.
 - **Reset Filters**: Reset all filtering fields with a single click for quick access to full records.
 
-![Image Alt Text](images/images(1).png)
-![Image Alt Text](images/images(3).png)
+![Image Alt Text](images/image(1).png)
+![Image Alt Text](images/image(3).png)
 
 #### **Screen 2: Add Expenses**
 - **Create New Expenses**: Submit new expense entries with ease.
@@ -26,18 +26,18 @@ The **Expense Report App** is a comprehensive Power Platform application that in
 - **Submit to Dataverse**: Expense data is submitted to a **Dataverse table** via the Patch function. Users are notified of successful submissions or when required fields are missing.
 - **Reset Fields**: Clear all input fields with a single button click.
 
-![Image Alt Text](images/images(4).png)
+![Image Alt Text](images/image(4).png)
 
 #### **Screen 3: Expense Analysis**
 - **Power BI Integration**: View an embedded Power BI report for comprehensive data visualization and insights. It allows users to filter data and analyze expenses.
 - **Multiple Selections**: Users can filter data by date, submitter, category, and status.
 
-![Image Alt Text](images/images(5).png)
+![Image Alt Text](images/image(5).png)
 
 #### **Screen 4: Created By**
 - **Contact Information**: Displays contact information about the app’s creator for support or inquiries.
 
-![Image Alt Text](images/images(6).png)
+![Image Alt Text](images/image(6).png)
 
 ### **Design & Customization**
 - The app uses global variables for colors, allowing you to easily update the app’s theme.
@@ -70,7 +70,7 @@ The **Expense Report App** is a comprehensive Power Platform application that in
    - Create a Dataverse table (e.g., `dbExpenses`) to store the expense records.
 
 ### 2. **Download the App Files**
-   - Download the [**ExpenseReportApp** solution zip](link) and extract it.
+   - Download the [**ExpenseReportApp** solution zip](ExpenseAnalysis_1_0_0_1.zip) and extract it.
 
 ### 3. **Import Components**
    - Import the `dbExpenses.xlsx` file into your **Dataverse** environment.
